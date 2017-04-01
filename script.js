@@ -12,6 +12,7 @@ $(document).ready(function() {
 	updatePrice();
 	$('#submit').on('click', function() {
 		alert(finalOrder());
+		location.reload();
 	})
 	$('.sizeRadio').on('click', function() {
 		if($(this).val() == 'Small') {
